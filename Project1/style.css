@@ -1,0 +1,196 @@
+*
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.topbar 
+{
+   display: inline-flex;
+   justify-content: right;
+   gap: 15px;
+   font-size: small;
+   color: rgb(84, 84, 84);
+   text-align: center;
+   margin-right: 2rem;
+   margin-bottom: 0.5rem;
+   margin-top: 1rem;
+   }
+
+.hr
+{
+  margin-top: rem; 
+  border-color: brown;
+}
+.top
+{
+
+    height: 3rem;
+    text-size-adjust: 20px;
+   margin-top: -8px;
+   text-align: end;
+   background-color: rgb(255, 255, 255);
+
+}
+
+
+.navbar
+{
+   position: relative;
+   top: 1rem;
+}
+.nav_a
+{
+   display: inline-flex;
+   position: absolute;
+   left: 2rem;
+   margin-left: 2.5rem;
+   width: 14rem;
+   height: 7rem;
+}
+
+.nav_b ul
+{
+   display: inline-flex;
+   list-style: none;
+   position: relative;
+   margin-top: -.3rem;
+   margin-left: 6rem;
+   
+}
+.nav_b ul li 
+{
+   
+   text-align: center;
+   width: 110px;
+   margin: 15px;
+   padding: 15px;
+}
+.nav_b ul li a
+{
+   color: black;
+   text-decoration:orange;
+}
+
+.nav_b ul li:hover #nav_b
+{
+   
+   background-color: rgb(247, 244, 249);
+   border-radius: 5px;
+}
+
+.sub_nav1
+{
+   display: none;
+
+}
+.nav_b ul li:hover .sub_nav1
+{
+   display: grid;
+   grid-row: ;
+   position: absolute;
+   background:rgba(254, 252, 249, 0.955);
+   margin-top: 4px;
+   margin-left: -10px;
+}
+.nav_b ul li:hover .sub_nav1 ul
+{
+  display:grid;
+  margin: 10px;
+}
+
+.nav_b ul li:hover .sub_nav1 ul li
+{
+ width: 200px;
+ padding: 10px;
+ border-bottom: .5px dotted white;
+ background: transparent;
+ border-radius: 0;
+ text-align: left;
+}
+.search
+{
+  position: relative;
+  top: 1.5rem;
+  left: 3rem;
+  display: flex;
+  height: 30px;
+ justify-content: center;
+ border-radius: 0;
+}
+form
+{
+   background:rgba(236, 234, 234, 0.861);
+   width: 200px;
+   height: 30px;
+   border-radius: 0;
+}
+form input
+{
+  flex: 1;
+  padding: 5px 10px;
+  background:rgb(255, 252, 252);
+  border: none;
+  outline: none;
+  border-radius: 0;
+
+}
+form button 
+{
+   background-color: rgb(255, 95, 67);
+   padding: 7.3px 30px;
+   border: none;
+   outline: none;
+   color: black;
+   letter-spacing: 1px;
+   cursor: pointer;
+   border-radius: 0;
+}
+.empbox
+{
+   width: 570px;
+   height: 470px;
+   background-image: linear-gradient(to bottom right, rgba(232, 154, 52, 0.91),tomato);    
+}
+
+
+
+.searchb
+{
+  position: relative;
+  top: 1.5rem;
+  left: 3rem;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  border-radius: 0;
+}
+form1
+{
+   background:rgb(255, 252, 252);
+   width:250px;
+   height: 40px;
+   border-radius: 0;
+}
+form1 input
+{
+  flex: 1;
+  padding: 12px 45px;
+  background:rgb(255, 252, 252);
+  border: none;
+  outline: none;
+  border-radius: 0;
+
+}
+form1 button1
+{
+   background-color: rgb(0, 0, 0);
+   padding: 12.9px 20px;
+   border: none;
+   outline: none;
+   color: rgb(255, 255, 255);
+   letter-spacing: 1px;
+   cursor: pointer;
+   border-radius: 0;
+}
+
