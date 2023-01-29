@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&family=Source+Sans+Pro:wght@200&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Poppins:wght@200&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<script>
+    function myfunction()
+    {
+        let regex = /\d\d\/\d\d\/\d\d\d\d/i;
+        let bday=document.querySelector("#Birthday").value;
+        if(regex.test(bday))
+        {
+            hide
+
+        
+        }
+
+
+    }
+</script>
+<style>
+    input
+    {
+        border:none;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    input:focus, textarea:focus, select:focus
+    {
+        outline: none;
+    }
+</style>
+
+<body style=" background-position: center;
+background-repeat: no-repeat;
+background:url(../ibrahim-rifath-Y6tBl0pTe-g-unsplash.jpg);background-position: center; background-size: cover;">
+
+   
+    <div class="out" style=" width: 37rem; height: 34.8rem; background-color: rgba(228, 228, 226, 0.688); position: relative; top: 2rem; left: 22rem; border-radius: 1.5rem; 
+    backdrop-filter: blur(20px);">
+
+        <h1 style="font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif; position: relative; left: 3rem;
+    top: 3rem;">Sign Up</h1>
+    
+    <div class="firstname" style="position: relative; top: 4.8rem; left: 3rem;">
+        <input type="text" placeholder="First Name" style=" width:13rem ;height: 2.8rem; border-radius: .4rem;" >
+
+        <div class="Lastname" style="position: relative; top: -2.8rem; left: 17rem;">
+            <input type="text" placeholder="Last Name" style=" width:13rem ;height: 2.8rem; border-radius: .4rem;" >
+            
+        </div>
+        <div class="invalida" style=" font-family:sans-serif; font-size: small;   position: absolute;bottom: 17.8rem; left: 11rem;color: rgb(252, 62, 62);">
+            <p>Invalid</p>
+        </div>
+        <div class="Birthday" style="position: relative; top: 0rem; left: 0rem;">
+            <input type="text" placeholder="Birthday (DD/MM/YYYY)" style=" width:13rem ;height: 2.8rem; border-radius: .4rem;" onfocusout="myfunction()" id="Birthday">
+    </div>
+
+    <div class="gender" style="position: relative; top: -3.8rem;left: 18rem; ">
+
+        
+        <label for="Gender" style="font-family: 'Poppins', sans-serif;
+        ">Gender:</label><br><br>
+    <div class="gen" style="font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;"><label for="">Female</label><input type="radio" name="options" id="">
+    <label for="">Male</label><input type="radio" name="options" id="">
+    
+</div>
+
+    </div>
+    <div class="Email" style="position: relative; top: -1rem; left: 0rem;">
+        <input type="text" placeholder="Email" style=" width:13rem ;height: 2.8rem; 
+        border-radius: .4rem;" >
+
+        <div class="Password" style="position: relative; top: -3rem; left: 17rem;">
+            <input type="text" placeholder="New Password" style=" width:13rem ;height: 2.8rem; border-radius: .4rem;" >
+            <div class="Phoneno" style="position: relative; top:3rem; left: -17rem;">
+                <input type="text" placeholder="Phone Number" style=" width:13rem ;height: 2.8rem; border-radius: .4rem; text-align:unset" > </div>
+                <div class="butto" style="position: relative; top:.2rem ; left: 2rem; ">
+                    <input type="button" value="SUBMIT" style="width: 10rem;height: 3rem; border-radius: .5rem; background-color: rgb(235, 163, 29); font-family: font-family: 'Lato', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-family: 'Ubuntu', sans-serif; color:white;">
+               
+            </div>
+            </div>
+</div>
+    
+</body>
+</html>
